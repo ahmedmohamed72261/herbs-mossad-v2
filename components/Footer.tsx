@@ -98,11 +98,11 @@ const Footer = () => {
                 </span>
                 {copy.emailUs}
               </h5>
-              <a href="mailto:export@herbivaeg.com" className="block text-[15px] transition hover:text-[#D1F349]">
-                export@herbivaeg.com
+              <a href="mailto:export@herbiva.com" className="block text-[15px] transition hover:text-[#D1F349]">
+                export@herbiva.com
               </a>
-              <a href="mailto:sales@herbivaeg.com" className="block text-[15px] transition hover:text-[#D1F349]">
-                sales@herbivaeg.com
+              <a href="mailto:sales@herbiva.com" className="block text-[15px] transition hover:text-[#D1F349]">
+                sales@herbiva.com
               </a>
             </div>
 

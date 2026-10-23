@@ -68,7 +68,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     return res.status(200).json({
       success: true,
-      message: 'Your RFQ has been received by Herbivaeg export team. We will review and respond within 24 hours.',
+      message: 'Your RFQ has been received by Herbiva export team. We will review and respond within 24 hours.',
       whatsapp_dispatch: `https://wa.me/966582848394`,
     });
   } catch (error: any) {

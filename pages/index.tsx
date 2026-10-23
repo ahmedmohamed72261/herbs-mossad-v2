@@ -160,7 +160,7 @@ const Home = () => {
   const contactCards = [
     { icon: FiMapPin, label: isEn ? 'Address' : 'العنوان', value: isEn ? 'Beni Suef, Egypt' : 'بني سويف، مصر', href: '/contact' },
     { icon: FiPhone, label: isEn ? 'Phone' : 'الهاتف', value: '+966 58 284 8394', href: 'tel:+966582848394' },
-    { icon: FiMail, label: isEn ? 'Email' : 'البريد', value: 'export@herbivaeg.com', href: 'mailto:export@herbivaeg.com' },
+    { icon: FiMail, label: isEn ? 'Email' : 'البريد', value: 'export@herbiva.com', href: 'mailto:export@herbiva.com' },
     { icon: FiGlobe, label: 'WhatsApp', value: '+966 58 284 8394', href: 'https://wa.me/966582848394' },
   ];
 
@@ -171,7 +171,7 @@ const Home = () => {
       {/* 1. HERO */}
       <section className="relative isolate overflow-hidden bg-[#0D1615]">
         <video
-          src="/images/herbivaeg-showreel.mp4"
+          src="/images/herbiva-showreel.mp4"
           poster="/images/hero-section.jpg"
           autoPlay
           loop
@@ -204,15 +204,14 @@ const Home = () => {
         <div className="container relative py-[100px] lg:min-h-[760px] lg:py-[130px]">
           <div className="max-w-2xl">
             <Reveal>
-              <span className="eyebrow text-[#D1F349]">
-                <img src="/images/organic/white-flowr.png" alt="" className="h-6 w-auto" />
+              <span className="eyebrow border border-[#C6A15B]/35 bg-[#C6A15B]/10 text-[#C6A15B]">
                 {page.heroBadge}
               </span>
-              <h1 className="mt-5 font-display text-[38px] font-bold capitalize leading-[1.08] text-white md:text-[54px] lg:text-[64px]">
-                {page.heroTitleLine1}
-                <span className="mt-2 block text-[#A5C232]">{page.heroTitleLine2}</span>
+              <h1 className="mt-5 font-display text-[38px] font-bold leading-[1.12] text-white md:text-[52px] lg:text-[62px]">
+                <span className="block">{page.heroTitleLine1}</span>
+                <span className="mt-3 block text-[#C6A15B]">{page.heroTitleLine2}</span>
               </h1>
-              <p className="mt-6 max-w-xl text-[16px] leading-[1.9] text-white/70">{page.heroDescription}</p>
+              <p className="mt-6 max-w-xl text-[16px] leading-[1.9] text-white/75">{page.heroDescription}</p>
               <div className="mt-9 flex flex-wrap gap-4">
                 <Link href="/contact" className="btn-primary shadow-lg shadow-[#A5C232]/25">
                   {isEn ? 'Request Export Quote' : 'طلب عرض سعر للتصدير'} <FiArrowRight className="h-4 w-4 rtl:rotate-180" />
@@ -224,7 +223,7 @@ const Home = () => {
               <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 text-[14px] text-white/60">
                 {page.featuredTagSecondary.map((item) => (
                   <span key={item} className="inline-flex items-center gap-2">
-                    <FiCheckCircle className="h-4 w-4 text-[#A5C232]" />
+                    <FiCheckCircle className="h-4 w-4 text-[#C6A15B]" />
                     {item}
                   </span>
                 ))}
@@ -235,17 +234,17 @@ const Home = () => {
                   {['M', 'E', 'A', 'K'].map((initial, index) => (
                     <span
                       key={initial}
-                      className="grid h-11 w-11 place-items-center rounded-full border-2 border-[#0D1615] bg-[#A5C232] font-display text-[15px] font-bold text-white"
+                      className="grid h-11 w-11 place-items-center rounded-full border-2 border-[#0D1615] bg-[#C6A15B] font-display text-[15px] font-bold text-[#0D1615]"
                       style={{ opacity: 1 - index * 0.12 }}
                     >
                       {initial}
                     </span>
                   ))}
                 </div>
-                <p className="max-w-[220px] text-[13px] leading-snug text-white/60">
+                <p className="max-w-[280px] text-[13px] font-medium leading-snug text-white/80">
                   {isEn
-                    ? 'Trusted by 500+ importers, blenders, and manufacturers worldwide.'
-                    : 'موثوق به من قبل أكثر من 500 مستورد وخلاط ومُصنّع حول العالم.'}
+                    ? 'Reliable Botanical Export Solutions for Global Markets'
+                    : 'حلول تصدير نباتية موثوقة للأسواق العالمية'}
                 </p>
               </div>
             </Reveal>
@@ -370,8 +369,8 @@ const Home = () => {
                   <FiCheckCircle className="h-4 w-4 text-[#A5C232]" />
                   <span>
                     {isEn
-                      ? 'Herbivaeg Egypt • Leading Herbs Suppliers & Exporters in Egypt'
-                      : 'Herbivaeg مصر • كبرى شركات توريد وتصدير الأعشاب الطبية والعطرية في مصر'}
+                      ? 'Herbiva Egypt • Leading Herbs Suppliers & Exporters in Egypt'
+                      : 'Herbiva مصر • كبرى شركات توريد وتصدير الأعشاب الطبية والعطرية في مصر'}
                   </span>
                 </div>
               </div>
@@ -856,8 +855,8 @@ const Home = () => {
                   {isEn ? 'Export markets served' : 'سوق تصدير مخدوم'}
                 </p>
                 <div className="mt-7 border-t border-white/10 pt-6">
-                  <p className="font-display text-[26px] font-bold leading-none">Herbivaeg</p>
-                  <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#A5C232]">
+                  <p className="font-display text-[26px] font-bold leading-none">Herbiva</p>
+                  <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#C6A15B]">
                     {t.brand.tagline}
                   </p>
                   <p className="mt-4 text-[14px] leading-relaxed text-white/60">{page.trustLabel}</p>

@@ -63,9 +63,9 @@ const Navbar = () => {
               <FiMapPin className="h-4 w-4 text-[#A5C232]" />
               {language === 'en' ? 'Kafr Bani Ali, Samasta – Beni Suef, Egypt' : 'كفر بني علي، سمسطا – بني سويف، مصر'}
             </span>
-            <a href="mailto:export@herbivaeg.com" className="inline-flex items-center gap-2 transition hover:text-[#D1F349]">
+            <a href="mailto:export@herbiva.com" className="inline-flex items-center gap-2 transition hover:text-[#D1F349]">
               <FiMail className="h-4 w-4 text-[#A5C232]" />
-              export@herbivaeg.com
+              export@herbiva.com
             </a>
           </div>
           <div className="flex items-center gap-5">
@@ -102,7 +102,7 @@ const Navbar = () => {
               />
             </Link>
             <div className="hidden border-s border-[#DCDCDC] ps-4 text-[12px] font-medium tracking-wide text-[#5D6F63] xl:inline-block ltr:ms-5 rtl:ms-5 dark:border-white/15 dark:text-white/60">
-              <span className="italic">Nature, sourced with trust</span>
+              <span className="italic font-semibold text-[#A68036] dark:text-[#C6A15B]">{t.brand.tagline}</span>
             </div>
           </div>
 

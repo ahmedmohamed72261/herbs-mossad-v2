@@ -159,8 +159,8 @@ const Certificates = () => {
             </h2>
             <p className="section-lead mx-auto mt-4 max-w-2xl">
               {language === 'en'
-                ? 'All Herbivaeg botanical exports are backed by comprehensive Certificate of Analysis (COA), microbiological testing, pesticide residue screening, and full batch traceability.'
-                : 'جميع صادرات هيربيفاج مدعومة بشهادات تحليل شاملة وفحوصات ميكروبيولوجية وتحليل متبقيات المبيدات وتتبع كامل للدفعات.'}
+                ? 'All Herbiva botanical exports are backed by comprehensive Certificate of Analysis (COA), microbiological testing, pesticide residue screening, and full batch traceability.'
+                : 'جميع صادرات هيربيفا مدعومة بشهادات تحليل شاملة وفحوصات ميكروبيولوجية وتحليل متبقيات المبيدات وتتبع كامل للدفعات.'}
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 text-start">
@@ -279,7 +279,7 @@ const Certificates = () => {
                     </span>
                     <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#A5C232]">
                       <FiAward className="h-4 w-4" />
-                      HERBIVAEG
+                      HERBIVA
                     </span>
                   </div>
                 </div>

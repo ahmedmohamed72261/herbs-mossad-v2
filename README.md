@@ -1,4 +1,4 @@
-# Herbivaeg — Website (Next.js Pages Router)
+# Herbiva — Website (Next.js Pages Router)
 
 Handoff README. It documents **the flow we executed**, **what is completed**, and **what is still missing**,
 so another AI (or developer) can resume without re-discovering the context.
@@ -7,10 +7,10 @@ so another AI (or developer) can resume without re-discovering the context.
 
 ## 1. What this project is
 
-A bilingual (EN/AR, RTL-aware) company website for **Herbivaeg** — an Egyptian exporter of premium herbs,
+A bilingual (EN/AR, RTL-aware) company website for **Herbiva** — an Egyptian exporter of premium herbs,
 spices, seeds, dried flowers and botanical raw materials.
 
-* Old brand strings: `Organic Herbs Co` / `ORGANIC HERBS` / `Herba` → **must always become `Herbivaeg`**.
+* Old brand strings: `Organic Herbs Co` / `ORGANIC HERBS` / `Herba` → **must always become `Herbiva`**.
 * Data layer: `lib/api.ts` (axios) talks to a Laravel backend through `NEXT_PUBLIC_API_URL`.
 * No `src/` directory. No App Router. **Pages Router only.**
 
@@ -47,7 +47,7 @@ H:\Web Projects Git Hub\Laravel\organic-cattle-farm\
 
 **Decision taken (confirmed with the user): "Hybrid" approach.** We adopt the template's *layout, colors and
 components*, but keep the project's own React component architecture, Tailwind utilities, i18n and API layer.
-Content/images stay the project's (Herbivaeg photos), not the cattle-farm ones.
+Content/images stay the project's (Herbiva photos), not the cattle-farm ones.
 
 ---
 
@@ -152,7 +152,7 @@ formatPrice(value) // "$12.50"
    Next **14** Pages-Router project, so that error class no longer applies. *(Note: `components/Footer.tsx` still
    calls `new Date().getFullYear()`; harmless on Next 14 without `cacheComponents`.)*
 2. **The real request:** take the UI/UX (colors, layout, components) from
-   `H:\Web Projects Git Hub\Laravel\organic-cattle-farm` and apply it to this project; rename the brand to **Herbivaeg**.
+   `H:\Web Projects Git Hub\Laravel\organic-cattle-farm` and apply it to this project; rename the brand to **Herbiva**.
 3. Scoped with the user: **Hybrid** design mode · **Full site incl. template-only pages** (shop, cart, checkout,
    advice, projects, listing-details) · **keep EN/AR + the existing API layer**.
 4. Extracted an exhaustive design-token spec from the template's `css/style.css`.
@@ -181,7 +181,7 @@ uses the Tailwind port, not this file).
 | `styles/globals.css` | ✅ full design system (sections, buttons, cards, chips, forms, utilities, keyframes, dark remaps) |
 | `pages/_document.tsx` | ✅ Anybody / Manrope / Kanit (+ Inter/Outfit) |
 | `store/index.ts` | ✅ cart state + `DELIVERY_CHARGES` + `getCartTotals` + `formatPrice` |
-| `lib/translations.ts` | ✅ added `nav.shop/cart/checkout/projects/advice`, `brand.name = 'Herbivaeg'`, `brand.tagline`; old brand → `Herbivaeg` |
+| `lib/translations.ts` | ✅ added `nav.shop/cart/checkout/projects/advice`, `brand.name = 'Herbiva'`, `brand.tagline`; old brand → `Herbiva` |
 | `public/images/organic/*` | ✅ 13 decorative assets ported |
 
 ### Shared components — done
@@ -190,7 +190,7 @@ uses the Tailwind port, not this file).
 | --- | --- |
 | `components/Layout.tsx` | ✅ rebranded title/description, `dir`/`lang`, font/bg classes |
 | `components/Navbar.tsx` | ✅ rebuilt (utility bar, dropdown, cart drawer, mobile menu) |
-| `components/Footer.tsx` | ✅ rebuilt to template layout, Herbivaeg branding |
+| `components/Footer.tsx` | ✅ rebuilt to template layout, Herbiva branding |
 | `components/PageBanner.tsx` | ✅ **new** dark breadcrumb banner |
 | `components/ProductCard.tsx` | ✅ restyled + add-to-cart wired to store |
 | `components/FloatingWhatsApp.tsx` | ✅ message rebranded |
@@ -249,7 +249,7 @@ The Navbar and the home page link to these, so they are dead links right now:
 ### 6.3 Brand / content leftovers
 
 * `pages/index.tsx` references the video `src="/images/ORGANIC HERBS CO.mp4"`.
-  Rename the file (e.g. `public/images/herbivaeg-showreel.mp4`) and update the path, or leave the path as-is —
+  Rename the file (e.g. `public/images/herbiva-showreel.mp4`) and update the path, or leave the path as-is —
   it is not user-visible. **Reference: `pages/index.tsx` around line 179.**
 * Sweep for any remaining `Organic Herbs` / `ORGANIC HERBS` / `Herba` occurrences across `pages/` and `components/`:
 

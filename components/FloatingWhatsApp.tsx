@@ -7,8 +7,8 @@ const WHATSAPP_PHONE = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '966582848394'
 export default function FloatingWhatsApp() {
   const { language } = useAppStore();
   const WHATSAPP_MESSAGE = language === 'en'
-    ? 'Hello Herbivaeg, I am interested in your premium herbs and spices products. Could you please share your catalog and wholesale pricing? Thank you.'
-    : 'مرحباً Herbivaeg، أنا مهتم بمنتجاتكم الممتازة من الأعشاب والتوابل. هل يمكنكم مشاركة كتالوج المنتجات وأسعار الجملة؟ شكراً لكم.';
+    ? 'Hello Herbiva, I am interested in your premium herbs and spices products. Could you please share your catalog and wholesale pricing? Thank you.'
+    : 'مرحباً Herbiva، أنا مهتم بمنتجاتكم الممتازة من الأعشاب والتوابل. هل يمكنكم مشاركة كتالوج المنتجات وأسعار الجملة؟ شكراً لكم.';
   const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
   const positionClass = language === 'ar' ? 'left-8' : 'right-8';
 

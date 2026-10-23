@@ -12,14 +12,14 @@ interface Message {
 
 const translations = {
   en: {
-    chatTitle: 'Herbivaeg Support',
+    chatTitle: 'Herbiva Support',
     chatSubtitle: 'How can we help?',
     inputPlaceholder: 'Ask a question...',
     sendButton: 'Send',
     suggestedQuestions: 'Suggested questions:',
     greetings: [
       'Hello! 👋 How can we assist you today?',
-      'Welcome to Herbivaeg! What would you like to know?',
+      'Welcome to Herbiva! What would you like to know?',
       'Hi there! Feel free to ask us anything about our products.',
     ],
     quickQuestions: [
@@ -39,7 +39,7 @@ const translations = {
       quality:
         'All our products undergo strict quality control. We are committed to providing the finest natural products.',
       contact:
-        'You can reach us via WhatsApp (+966 58 284 8394), email at info@herbivaeg.com, or through our contact form.',
+        'You can reach us via WhatsApp (+966 58 284 8394), email at info@herbiva.com, or through our contact form.',
       payment:
         'We accept major credit cards, bank transfers, and other secure payment methods at checkout.',
       storage:
@@ -47,14 +47,14 @@ const translations = {
     },
   },
   ar: {
-    chatTitle: 'دعم Herbivaeg',
+    chatTitle: 'دعم Herbiva',
     chatSubtitle: 'كيف يمكننا مساعدتك؟',
     inputPlaceholder: 'اطرح سؤالا...',
     sendButton: 'إرسال',
     suggestedQuestions: 'أسئلة مقترحة:',
     greetings: [
       'مرحبا! 👋 كيف يمكننا مساعدتك اليوم؟',
-      'أهلا بك في Herbivaeg! ماذا تريد أن تعرف؟',
+      'أهلا بك في Herbiva! ماذا تريد أن تعرف؟',
       'مرحبا! لا تتردد في السؤال عن منتجاتنا.',
     ],
     quickQuestions: [
@@ -73,7 +73,7 @@ const translations = {
       quality:
         'جميع منتجاتنا تخضع لمراقبة جودة صارمة. نلتزم بتقديم أفضل المنتجات الطبيعية.',
       contact:
-        'يمكنك التواصل معنا عبر WhatsApp (+966 58 284 8394)، البريد الإلكتروني info@herbivaeg.com، أو نموذج التواصل.',
+        'يمكنك التواصل معنا عبر WhatsApp (+966 58 284 8394)، البريد الإلكتروني info@herbiva.com، أو نموذج التواصل.',
       payment:
         'نقبل بطاقات الائتمان الرئيسية والتحويلات البنكية وطرق دفع آمنة أخرى.',
       storage:

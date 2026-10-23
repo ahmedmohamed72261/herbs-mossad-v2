@@ -19,12 +19,12 @@ const Layout = ({ children, title, description, keywords }: LayoutProps) => {
   const isEn = language === 'en';
 
   const defaultTitle = isEn
-    ? 'Herbivaeg — Leading Herbs Suppliers, Coriander & Fennel Exporters in Egypt'
-    : 'هيربيفاج — مورد ومصدر الأعشاب والتوابل والكزبرة والشمر في مصر';
+    ? 'Herbiva — Leading Herbs Suppliers, Coriander & Fennel Exporters in Egypt'
+    : 'هيربيفا — مورد ومصدر الأعشاب والتوابل والكزبرة والشمر في مصر';
 
   const defaultDescription = isEn
-    ? 'Herbivaeg is a certified Egyptian grower & exporter of premium dried herbs, spices, and seeds. Reliable bulk supplier of Egyptian Chamomile, Coriander, Fennel, Basil & Hibiscus to 50+ countries. ISO 22000 & HACCP certified.'
-    : 'هيربيفاج شركة مصرية رائدة في زراعة وتجهيز وتصدير الأعشاب الطبية والعطرية والتوابل والبذور. مصدر رئيسي للبابونج والكزبرة والشمر والريحان والكركديه لأكثر من 50 دولة حول العالم بمعايير ISO 22000 و HACCP.';
+    ? 'Herbiva is a certified Egyptian grower & exporter of premium dried herbs, spices, and seeds. Reliable bulk supplier of Egyptian Chamomile, Coriander, Fennel, Basil & Hibiscus to 50+ countries. ISO 22000 & HACCP certified.'
+    : 'هيربيفا شركة مصرية رائدة في زراعة وتجهيز وتصدير الأعشاب الطبية والعطرية والتوابل والبذور. مصدر رئيسي للبابونج والكزبرة والشمر والريحان والكركديه لأكثر من 50 دولة حول العالم بمعايير ISO 22000 و HACCP.';
 
   const defaultKeywords =
     'herbs suppliers in Egypt, coriander exporters in Egypt, fennel exporters in Egypt, Egyptian chamomile suppliers, dried herbs Egypt, coriander seeds Egypt, fennel seeds Egypt, basil exporters Egypt, hibiscus flowers exporter, cumin seeds Egypt, anise seeds exporter, Egyptian agricultural exporter, bulk botanicals Egypt, private label herbs Egypt, HACCP certified herbs Egypt';
@@ -32,13 +32,13 @@ const Layout = ({ children, title, description, keywords }: LayoutProps) => {
   const schemaData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Herbivaeg',
-    legalName: 'Herbivaeg for Agricultural Crops & Export',
-    url: 'https://herbivaeg.com',
-    logo: 'https://herbivaeg.com/images/logo-circle.png',
+    name: 'Herbiva',
+    legalName: 'Herbiva for Agricultural Crops & Export',
+    url: 'https://herbiva.com',
+    logo: 'https://herbiva.com/images/logo-circle.png',
     description: defaultDescription,
     telephone: '+966582848394',
-    email: 'export@herbivaeg.com',
+    email: 'export@herbiva.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Kafr Bani Ali, Samasta',
@@ -59,10 +59,10 @@ const Layout = ({ children, title, description, keywords }: LayoutProps) => {
   return (
     <>
       <Head>
-        <title>{title ? `${title} | Herbivaeg` : defaultTitle}</title>
+        <title>{title ? `${title} | Herbiva` : defaultTitle}</title>
         <meta name="description" content={description || defaultDescription} />
         <meta name="keywords" content={keywords || defaultKeywords} />
-        <meta name="author" content="Herbivaeg" />
+        <meta name="author" content="Herbiva" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -70,15 +70,15 @@ const Layout = ({ children, title, description, keywords }: LayoutProps) => {
         <link rel="apple-touch-icon" href="/images/logo-circle.png" />
 
         {/* OpenGraph & Social Cards */}
-        <meta property="og:title" content={title ? `${title} | Herbivaeg` : defaultTitle} />
+        <meta property="og:title" content={title ? `${title} | Herbiva` : defaultTitle} />
         <meta property="og:description" content={description || defaultDescription} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Herbivaeg" />
+        <meta property="og:site_name" content="Herbiva" />
         <meta property="og:image" content="/images/about.jpg" />
 
         {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title ? `${title} | Herbivaeg` : defaultTitle} />
+        <meta name="twitter:title" content={title ? `${title} | Herbiva` : defaultTitle} />
         <meta name="twitter:description" content={description || defaultDescription} />
         <meta name="twitter:image" content="/images/about.jpg" />
 

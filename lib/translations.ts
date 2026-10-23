@@ -17,8 +17,8 @@ export const translations = {
       export: 'Export & Shipping',
     },
     brand: {
-      name: 'Herbivaeg',
-      tagline: 'Nature, sourced with trust.',
+      name: 'Herbiva',
+      tagline: 'Nature, Sourced with Trust.',
       visionTitle: 'Our Vision',
       vision:
         'To become a trusted global supplier of premium Egyptian botanicals, connecting Egypt\'s agricultural wealth with international markets through consistent quality, sustainable sourcing, and long-term partnerships.',
@@ -47,11 +47,11 @@ export const translations = {
       testimonials: 'Client Testimonials',
     },
     homePage: {
-      heroBadge: 'Premium Egyptian Botanicals',
-      heroTitleLine1: 'Pure Egyptian Botanicals,',
-      heroTitleLine2: 'Certified for Global Markets',
+      heroBadge: 'HERBIVA Egyptian Botanicals • Herbs · Spices · Seeds',
+      heroTitleLine1: 'Premium Egyptian Botanicals.',
+      heroTitleLine2: 'Nature, Sourced with Trust.',
       heroDescription:
-        'Premium herbs, spices, seeds, and botanical raw materials sourced directly from Egypt\'s finest agricultural regions, processed to meet the highest international standards.',
+        'Premium herbs, spices, seeds, and botanical raw materials sourced from Egypt\'s finest agricultural regions and prepared to meet customer specifications and applicable international requirements.',
       discoverMore: 'Discover Our Expertise',
       featureCards: [
         {
@@ -108,7 +108,7 @@ export const translations = {
       testimonialsBadge: 'Global Partners',
       testimonialsTitle: 'Trusted by Industry Leaders',
       testimonialsDescription:
-        'Food manufacturers, tea blenders, and cosmetic brands across 50+ countries rely on Herbivaeg for consistent, premium bulk botanical supplies.',
+        'Food manufacturers, tea blenders, and cosmetic brands across 50+ countries rely on Herbiva for consistent, premium bulk botanical supplies.',
       testimonialsItems: [
         {
           text: 'The quality of their dried herbs and spices is exceptional. Their reliable bulk supply and strict adherence to EU standards make them a valuable export partner for our manufacturing.',
@@ -116,12 +116,12 @@ export const translations = {
           role: 'Procurement Director, Food & Beverage Corp.',
         },
         {
-          text: 'We source our botanical ingredients from Herbivaeg. Their processing standards, traceability, and professional export handling have completely streamlined our supply chain.',
+          text: 'We source our botanical ingredients from Herbiva. Their processing standards, traceability, and professional export handling have completely streamlined our supply chain.',
           name: 'Elena Rossi',
           role: 'Head of Sourcing, International Tea Blends',
         },
       ],
-      trustLabel: 'HERBIVAEG',
+      trustLabel: 'HERBIVA',
       faqBadge: 'B2B Export FAQ',
       faqTitle: 'Frequently Asked Questions',
       faqDescription:
@@ -201,7 +201,7 @@ export const translations = {
       storyBadge: 'Company Overview',
       storyTitle: 'Leading Egypt\'s Botanical Export',
       storyDescriptionOne:
-        'Herbivaeg is a premier Egyptian supplier, processor, and exporter of high-quality herbs, spices, seeds, and botanical raw materials. Rooted in Egypt\'s rich agricultural history, we bridge local farming excellence with global industry demands.',
+        'Herbiva is a premier Egyptian supplier, processor, and exporter of high-quality herbs, spices, seeds, and botanical raw materials. Rooted in Egypt\'s rich agricultural history, we bridge local farming excellence with global industry demands.',
       storyDescriptionTwo:
         'With robust processing infrastructure and a commitment to rigorous quality control, we provide reliable bulk supply to the food, tea, pharmaceutical, and cosmetic industries across international markets.',
       stats: [
@@ -219,9 +219,9 @@ export const translations = {
       valuesTitle: 'Our Values',
       valuesDescription:
         'Quality assurance, supply chain transparency, sustainable farming practices, and building long-term B2B partnerships form the foundation of our operations.',
-      whyChooseUsTitle: 'Why Choose Herbivaeg?',
+      whyChooseUsTitle: 'Why Choose Herbiva?',
       whyChooseUsIntro:
-        'Herbivaeg is a trusted supplier and exporter of premium-quality herbs, spices, seeds, and dried flowers, serving customers across international markets. We provide both Organic and Conventional products, supported by strict quality standards, reliable sourcing, and professional export services.\n\nOur mission is to deliver safe, natural, and high-quality agricultural products while building long-term partnerships based on trust, consistency, and customer satisfaction.',
+        'Herbiva is a trusted supplier and exporter of premium-quality herbs, spices, seeds, and dried flowers, serving customers across international markets. We provide both Organic and Conventional products, supported by strict quality standards, reliable sourcing, and professional export services.\n\nOur mission is to deliver safe, natural, and high-quality agricultural products while building long-term partnerships based on trust, consistency, and customer satisfaction.',
       whyChooseUsSections: [
         {
           title: 'Organic & Conventional Product Expertise',
@@ -245,7 +245,7 @@ export const translations = {
         },
         {
           title: 'Building Long-Term Partnerships',
-          body: 'At Herbivaeg, we believe that successful business is built on trust and long-term cooperation. We work closely with our customers to provide consistent quality, professional service, and reliable support that contributes to their growth and success.',
+          body: 'At Herbiva, we believe that successful business is built on trust and long-term cooperation. We work closely with our customers to provide consistent quality, professional service, and reliable support that contributes to their growth and success.',
         },
       ],
       certifications: [
@@ -266,7 +266,7 @@ export const translations = {
         'International Shipping & Logistics Support',
       ],
       whyChooseUsClosing:
-        'At Herbivaeg, we believe that successful business is built on trust and long-term cooperation. We work closely with our customers to provide consistent quality, professional service, and reliable support that contributes to their growth and success.',
+        'At Herbiva, we believe that successful business is built on trust and long-term cooperation. We work closely with our customers to provide consistent quality, professional service, and reliable support that contributes to their growth and success.',
       whyChooseUsCta: 'Choose a supplier that combines certified quality, global market expertise, reliable sourcing, and uncompromising food safety standards for Organic and Conventional Herbs, Spices, Seeds, and Dried Flowers.',
     },
     products: {
@@ -341,8 +341,8 @@ export const translations = {
       export: 'التصدير والشحن',
     },
     brand: {
-      name: 'Herbivaeg',
-      tagline: 'الطبيعة… بمصدر موثوق.',
+      name: 'Herbiva',
+      tagline: 'الطبيعة، بمصدر موثوق.',
       visionTitle: 'رؤيتنا',
       vision:
         'أن نصبح مورداً عالمياً موثوقاً للنباتات المصرية الفاخرة، ونربط الثروة الزراعية في مصر بالأسواق الدولية من خلال الجودة الثابتة والتوريد المستدام والشراكات طويلة الأمد.',
@@ -371,11 +371,11 @@ export const translations = {
       testimonials: 'آراء العملاء',
     },
     homePage: {
-      heroBadge: 'نباتات مصرية فاخرة',
-      heroTitleLine1: 'أجود النباتات والمحاصيل المصرية،',
-      heroTitleLine2: 'بمعايير تصدير عالمية موثوقة',
+      heroBadge: 'HERBIVA النباتات المصرية • أعشاب · بهارات · بذور',
+      heroTitleLine1: 'أجود النباتات والمحاصيل المصرية.',
+      heroTitleLine2: 'الطبيعة، بمصدر موثوق.',
       heroDescription:
-        'أعشاب وبهارات وبذور ومواد خام نباتية فاخرة يتم الحصول عليها مباشرة من أفضل المناطق الزراعية في مصر، وتتم معالجتها لتلبية أعلى المعايير الدولية.',
+        'أعشاب وتوابل وبذور ومواد خام نباتية ممتازة من أجود المناطق الزراعية في مصر، مُعدّة ومجهزة لتلبية مواصفات العملاء والمتطلبات الدولية المعمول بها.',
       discoverMore: 'اكتشف خبراتنا',
       featureCards: [
         {
@@ -432,7 +432,7 @@ export const translations = {
       testimonialsBadge: 'شركاء عالميون',
       testimonialsTitle: 'موثوق به من قبل قادة الصناعة',
       testimonialsDescription:
-        'يعتمد مصنعو الأغذية وخلاطو الشاي وعلامات مستحضرات التجميل في أكثر من 50 دولة على Herbivaeg للحصول على إمدادات نباتية بالجملة متسقة وفاخرة.',
+        'يعتمد مصنعو الأغذية وخلاطو الشاي وعلامات مستحضرات التجميل في أكثر من 50 دولة على Herbiva للحصول على إمدادات نباتية بالجملة متسقة وفاخرة.',
       testimonialsItems: [
         {
           text: 'جودة أعشابهم وتوابلهم المجففة استثنائية. إمداداتهم الموثوقة بالجملة والتزامهم الصارم بمعايير الاتحاد الأوروبي يجعلهم شريك تصدير قيم لتصنيعنا.',
@@ -440,12 +440,12 @@ export const translations = {
           role: 'Procurement Director, Food & Beverage Corp.',
         },
         {
-          text: 'نحصل على مكوناتنا النباتية من Herbivaeg. لقد أدت معايير المعالجة وإمكانية التتبع والتعامل المهني مع التصدير إلى تبسيط سلسلة التوريد لدينا بالكامل.',
+          text: 'نحصل على مكوناتنا النباتية من Herbiva. لقد أدت معايير المعالجة وإمكانية التتبع والتعامل المهني مع التصدير إلى تبسيط سلسلة التوريد لدينا بالكامل.',
           name: 'Elena Rossi',
           role: 'Head of Sourcing, International Tea Blends',
         },
       ],
-      trustLabel: 'HERBIVAEG',
+      trustLabel: 'HERBIVA',
       faqBadge: 'الأسئلة الشائعة للتصدير B2B',
       faqTitle: 'الأسئلة المتداولة',
       faqDescription:
@@ -525,7 +525,7 @@ export const translations = {
       storyBadge: 'لمحة عن الشركة',
       storyTitle: 'قيادة التصدير النباتي في مصر',
       storyDescriptionOne:
-        'Herbivaeg هي مورد ومعالج ومُصدر مصري رائد للأعشاب والتوابل والبذور والمواد الخام النباتية عالية الجودة. متجذرون في التاريخ الزراعي الغني لمصر، نربط التميز الزراعي المحلي بمتطلبات الصناعة العالمية.',
+        'Herbiva هي مورد ومعالج ومُصدر مصري رائد للأعشاب والتوابل والبذور والمواد الخام النباتية عالية الجودة. متجذرون في التاريخ الزراعي الغني لمصر، نربط التميز الزراعي المحلي بمتطلبات الصناعة العالمية.',
       storyDescriptionTwo:
         'بفضل البنية التحتية القوية للمعالجة والالتزام بمراقبة الجودة الصارمة، نوفر إمدادات موثوقة بالجملة لصناعات الأغذية والشاي والأدوية ومستحضرات التجميل عبر الأسواق الدولية.',
       stats: [
@@ -543,9 +543,9 @@ export const translations = {
       valuesTitle: 'قيمنا',
       valuesDescription:
         'ضمان الجودة، شفافية سلسلة التوريد، الممارسات الزراعية المستدامة، وبناء شراكات B2B طويلة الأجل تشكل أساس عملياتنا.',
-      whyChooseUsTitle: 'لماذا تختار Herbivaeg؟',
+      whyChooseUsTitle: 'لماذا تختار Herbiva؟',
       whyChooseUsIntro:
-        'Herbivaeg هي مورد ومُصدر موثوق للأعشاب والتوابل والبذور والزهور المجففة عالية الجودة، تخدم العملاء عبر الأسواق الدولية. نحن نقدم كلاً من المنتجات العضوية والتقليدية، مدعومة بمعايير جودة صارمة، ومصادر موثوقة، وخدمات تصدير احترافية.\n\nمهمتنا هي تقديم منتجات زراعية آمنة وطبيعية وعالية الجودة مع بناء شراكات طويلة الأجل قائمة على الثقة والاتساق ورضا العملاء.',
+        'Herbiva هي مورد ومُصدر موثوق للأعشاب والتوابل والبذور والزهور المجففة عالية الجودة، تخدم العملاء عبر الأسواق الدولية. نحن نقدم كلاً من المنتجات العضوية والتقليدية، مدعومة بمعايير جودة صارمة، ومصادر موثوقة، وخدمات تصدير احترافية.\n\nمهمتنا هي تقديم منتجات زراعية آمنة وطبيعية وعالية الجودة مع بناء شراكات طويلة الأجل قائمة على الثقة والاتساق ورضا العملاء.',
       whyChooseUsSections: [
         {
           title: 'خبرة في المنتجات العضوية والتقليدية',
@@ -569,7 +569,7 @@ export const translations = {
         },
         {
           title: 'بناء شراكات طويلة الأجل',
-          body: 'في Herbivaeg، نؤمن بأن الأعمال الناجحة تُبنى على الثقة والتعاون طويل الأجل. نحن نعمل عن كثب مع عملائنا لتوفير جودة متسقة وخدمة احترافية ودعم موثوق يساهم في نموهم ونجاحهم.',
+          body: 'في Herbiva، نؤمن بأن الأعمال الناجحة تُبنى على الثقة والتعاون طويل الأجل. نحن نعمل عن كثب مع عملائنا لتوفير جودة متسقة وخدمة احترافية ودعم موثوق يساهم في نموهم ونجاحهم.',
         },
       ],
       certifications: [
@@ -590,7 +590,7 @@ export const translations = {
         'دعم الشحن والخدمات اللوجستية الدولية',
       ],
       whyChooseUsClosing:
-        'في Herbivaeg، نؤمن بأن الأعمال الناجحة تُبنى على الثقة والتعاون طويل الأجل. نحن نعمل عن كثب مع عملائنا لتوفير جودة متسقة وخدمة احترافية ودعم موثوق يساهم في نموهم ونجاحهم.',
+        'في Herbiva، نؤمن بأن الأعمال الناجحة تُبنى على الثقة والتعاون طويل الأجل. نحن نعمل عن كثب مع عملائنا لتوفير جودة متسقة وخدمة احترافية ودعم موثوق يساهم في نموهم ونجاحهم.',
       whyChooseUsCta: 'اختر مورداً يجمع بين الجودة المعتمدة، وخبرة السوق العالمية، والتوريد الموثوق، ومعايير سلامة الأغذية التي لا هوادة فيها للأعشاب والتوابل والبذور والزهور المجففة العضوية والتقليدية.',
     },
     products: {

@@ -65,7 +65,7 @@ const Contact = () => {
 
   const generateWhatsAppMessage = () => {
     const text = isEn
-      ? `Hello Herbivaeg Export Team!%0A%0AI would like to request an official wholesale price quotation:%0A` +
+      ? `Hello Herbiva Export Team!%0A%0AI would like to request an official wholesale price quotation:%0A` +
         `• *Client Name:* ${formData.name}%0A` +
         `• *Company:* ${formData.company || 'N/A'}%0A` +
         `• *Email:* ${formData.email}%0A` +
@@ -76,7 +76,7 @@ const Contact = () => {
         (formData.specifications ? `• *Specifications:* ${formData.specifications}%0A` : '') +
         (formData.message ? `• *Notes:* ${formData.message}%0A` : '') +
         `%0APlease provide CIF/FOB pricing and lead time.`
-      : `مرحباً فريق تصدير Herbivaeg،%0A%0Aأود طلب عرض سعر رسمي للمنتجات التالية:%0A` +
+      : `مرحباً فريق تصدير Herbiva،%0A%0Aأود طلب عرض سعر رسمي للمنتجات التالية:%0A` +
         `• *اسم العميل:* ${formData.name}%0A` +
         `• *الشركة:* ${formData.company || 'غير محدد'}%0A` +
         `• *البريد الإلكتروني:* ${formData.email}%0A` +
@@ -125,7 +125,7 @@ const Contact = () => {
     { icon: FiMapPin, label: t.contact.address, value: page.addressText, href: null },
     { icon: FiPhone, label: t.contact.phoneNumber, value: '+966 58 284 8394', href: 'tel:+966582848394' },
     { icon: FaWhatsapp, label: 'WhatsApp', value: '+966 58 284 8394', href: 'https://wa.me/966582848394' },
-    { icon: FiMail, label: t.contact.emailAddress, value: 'info@herbivaeg.com', href: 'mailto:info@herbivaeg.com' },
+    { icon: FiMail, label: t.contact.emailAddress, value: 'info@herbiva.com', href: 'mailto:info@herbiva.com' },
   ];
 
   return (
@@ -133,8 +133,8 @@ const Contact = () => {
       title={isEn ? 'Request a Quote & Contact Us' : 'طلب عرض سعر والتواصل'}
       description={
         isEn
-          ? 'Request a wholesale botanical quote from Herbivaeg. Direct Egyptian exporter of premium chamomile, coriander, fennel, basil & hibiscus to global ports.'
-          : 'اطلب عرض سعر لتوريد الأعشاب والتوابل بالجملة من هيربيفاج مصر. تصدير البابونج والكزبرة والشمر والريحان والكركديه لجميع موانئ العالم.'
+          ? 'Request a wholesale botanical quote from Herbiva. Direct Egyptian exporter of premium chamomile, coriander, fennel, basil & hibiscus to global ports.'
+          : 'اطلب عرض سعر لتوريد الأعشاب والتوابل بالجملة من هيربيفا مصر. تصدير البابونج والكزبرة والشمر والريحان والكركديه لجميع موانئ العالم.'
       }
     >
       <PageBanner
@@ -394,8 +394,8 @@ const Contact = () => {
                     <a
                       href={`https://wa.me/966582848394?text=${encodeURIComponent(
                         isEn
-                          ? 'Hello Herbivaeg! I would like to request a wholesale price quote for Egyptian herbs & seeds.'
-                          : 'مرحباً هيربيفاج! أود طلب عرض سعر بالجملة للنباتات والأعشاب المصرية.'
+                          ? 'Hello Herbiva! I would like to request a wholesale price quote for Egyptian herbs & seeds.'
+                          : 'مرحباً هيربيفا! أود طلب عرض سعر بالجملة للنباتات والأعشاب المصرية.'
                       )}`}
                       target="_blank"
                       rel="noreferrer"

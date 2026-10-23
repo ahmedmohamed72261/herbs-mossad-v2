@@ -57,9 +57,9 @@ const sections = [
     titleEn: 'Export Preparation, Packaging & Documentation',
     titleAr: 'التجهيز للتصدير، التعبئة ومستندات الشحن',
     contentEn:
-      'At Herbivaeg, we prepare every botanical shipment specifically for export according to the destination country’s food safety regulations and client packaging preferences. We handle all custom packaging requirements (multi-wall kraft paper bags, poly-lined woven bags, reinforced flower cartons, and bulk big bags) alongside complete export documentation—including official Phytosanitary certificates, Certificates of Origin, lab-tested COAs, and Fumigation certificates—ensuring swift customs clearance across Europe, the Americas, Asia, and the Gulf.',
+      'At Herbiva, we prepare every botanical shipment specifically for export according to the destination country’s food safety regulations and client packaging preferences. We handle all custom packaging requirements (multi-wall kraft paper bags, poly-lined woven bags, reinforced flower cartons, and bulk big bags) alongside complete export documentation—including official Phytosanitary certificates, Certificates of Origin, lab-tested COAs, and Fumigation certificates—ensuring swift customs clearance across Europe, the Americas, Asia, and the Gulf.',
     contentAr:
-      'في Herbivaeg، نقوم بتجهيز المنتجات الزراعية والنباتية للتصدير وفقاً لمتطلبات بلد العميل والمعايير الفنية المعتمدة لديه. نتعامل مع كافة متطلبات التعبئة والشحن ومستندات التصدير حسب نوع المنتج ورغبة العميل (أكياس ورق كرافت متعددة الطبقات، أكياس منسوجة مبطنة، كراتين مقواة للأزهار، عبوات جامبو) بالإضافة إلى استخراج كافة مستندات التصدير الرسمية (شهادة الصحة النباتية، شهادة المنشأ، شهادة التحليل المخبري COA، شهادة التبخير) لضمان تخليص جمركي سلس وموثوق في جميع موانئ العالم.',
+      'في Herbiva، نقوم بتجهيز المنتجات الزراعية والنباتية للتصدير وفقاً لمتطلبات بلد العميل والمعايير الفنية المعتمدة لديه. نتعامل مع كافة متطلبات التعبئة والشحن ومستندات التصدير حسب نوع المنتج ورغبة العميل (أكياس ورق كرافت متعددة الطبقات، أكياس منسوجة مبطنة، كراتين مقواة للأزهار، عبوات جامبو) بالإضافة إلى استخراج كافة مستندات التصدير الرسمية (شهادة الصحة النباتية، شهادة المنشأ، شهادة التحليل المخبري COA، شهادة التبخير) لضمان تخليص جمركي سلس وموثوق في جميع موانئ العالم.',
   },
   {
     id: 'future',
@@ -77,9 +77,9 @@ const sections = [
     titleEn: 'Conclusion',
     titleAr: 'الخاتمة',
     contentEn:
-      "At Herbivaeg, we understand that complete traceability is essential for building trust in today's global food supply chain. Through advanced documentation, rigorous quality controls, and transparent supply chain management, we provide customers with complete visibility across every stage of production, processing, packaging, and export. By maintaining the highest standards of traceability, we deliver premium Egyptian herbs, spices, seeds, flowers, and herbal teas to customers worldwide.",
+      "At Herbiva, we understand that complete traceability is essential for building trust in today's global food supply chain. Through advanced documentation, rigorous quality controls, and transparent supply chain management, we provide customers with complete visibility across every stage of production, processing, packaging, and export. By maintaining the highest standards of traceability, we deliver premium Egyptian herbs, spices, seeds, flowers, and herbal teas to customers worldwide.",
     contentAr:
-      'في Herbivaeg، ندرك أن التتبع الكامل ضروري لبناء الثقة في سلسلة التوريد الغذائي العالمية اليوم. من خلال التوثيق المتقدم وضوابط الجودة الصارمة وإدارة سلسلة التوريد الشفافة، نوفر للعملاء رؤية كاملة عبر كل مرحلة من مراحل الإنتاج والمعالجة والتعبئة والتصدير. من خلال الحفاظ على أعلى معايير التتبع، نقدم الأعشاب والتوابل والبذور والزهور والشاي العشبي المصري الممتاز للعملاء في جميع أنحاء العالم.',
+      'في Herbiva، ندرك أن التتبع الكامل ضروري لبناء الثقة في سلسلة التوريد الغذائي العالمية اليوم. من خلال التوثيق المتقدم وضوابط الجودة الصارمة وإدارة سلسلة التوريد الشفافة، نوفر للعملاء رؤية كاملة عبر كل مرحلة من مراحل الإنتاج والمعالجة والتعبئة والتصدير. من خلال الحفاظ على أعلى معايير التتبع، نقدم الأعشاب والتوابل والبذور والزهور والشاي العشبي المصري الممتاز للعملاء في جميع أنحاء العالم.',
   },
 ];
 
@@ -127,7 +127,7 @@ export default function ExportPage() {
           <FadeIn>
             <span className="eyebrow justify-center">
               <FiAward className="h-4 w-4 text-[#A5C232]" />
-              {isEn ? 'Herbivaeg — Professional Article' : 'Herbivaeg — مقال احترافي'}
+              {isEn ? 'Herbiva — Professional Article' : 'Herbiva — مقال احترافي'}
             </span>
             <h2 className="section-title">
               {isEn ? 'From Field to Container' : 'من الحقل إلى الحاوية'}
@@ -489,7 +489,7 @@ export default function ExportPage() {
                       <span className="text-xs font-bold text-[#D1F349]">HV</span>
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-white">Herbivaeg</p>
+                      <p className="text-sm font-bold text-white">Herbiva</p>
                       <p className="text-xs text-white/50">{isEn ? 'Traceability Excellence' : 'التميز في التتبع'}</p>
                     </div>
                   </div>

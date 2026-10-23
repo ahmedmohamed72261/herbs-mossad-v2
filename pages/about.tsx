@@ -188,7 +188,7 @@ const About = () => {
       <section className="section-lime">
         <div className="container relative flex flex-col items-center justify-between gap-6 py-[60px] text-center lg:flex-row lg:py-[80px] lg:text-start">
           <h2 className="section-title mt-0 max-w-2xl text-white">
-            {isEn ? 'Partner with Herbivaeg for reliable bulk supply' : 'تعاون مع Herbivaeg لتوريد بالجملة موثوق'}
+            {isEn ? 'Partner with Herbiva for reliable bulk supply' : 'تعاون مع Herbiva لتوريد بالجملة موثوق'}
           </h2>
           <Link href="/contact" className="btn-dark shrink-0">
             {isEn ? 'Start a Conversation' : 'ابدأ محادثة'} <FiArrowRight className="h-4 w-4 rtl:rotate-180" />

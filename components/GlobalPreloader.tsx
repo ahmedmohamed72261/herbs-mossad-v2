@@ -11,7 +11,7 @@ export default function GlobalPreloader() {
 
   useEffect(() => {
     // Check if preloader has already run in this session
-    const hasLoaded = typeof window !== 'undefined' ? sessionStorage.getItem('herbivaeg_first_load') : null;
+    const hasLoaded = typeof window !== 'undefined' ? sessionStorage.getItem('herbiva_first_load') : null;
     if (hasLoaded) {
       setLoading(false);
       return;
@@ -39,7 +39,7 @@ export default function GlobalPreloader() {
           setLoading(false);
           document.body.style.overflow = '';
           try {
-            sessionStorage.setItem('herbivaeg_first_load', 'true');
+            sessionStorage.setItem('herbiva_first_load', 'true');
           } catch {
             // Safe fallback if sessionStorage is restricted
           }
@@ -62,7 +62,7 @@ export default function GlobalPreloader() {
     if (progress < 75) {
       return isEn ? 'Verifying Export Purity & Standards...' : 'فحص الجودة ومعايير التصدير...';
     }
-    return isEn ? 'Welcome to Herbivaeg Global' : 'مرحباً بكم في هيربيفاج الدولية';
+    return isEn ? 'Welcome to Herbiva Global' : 'مرحباً بكم في هيربيفا الدولية';
   };
 
   return (
@@ -79,7 +79,7 @@ export default function GlobalPreloader() {
           className="fixed inset-0 z-[99999] flex flex-col items-center justify-center overflow-hidden bg-[#0D1615] text-white selection:bg-[#A5C232] selection:text-white"
           role="status"
           aria-live="polite"
-          aria-label="Loading Herbivaeg"
+          aria-label="Loading Herbiva"
         >
           {/* Ambient organic glows */}
           <div className="pointer-events-none absolute -left-32 -top-32 h-[500px] w-[500px] rounded-full bg-[#A5C232]/12 blur-[140px]" />
@@ -103,7 +103,7 @@ export default function GlobalPreloader() {
               <div className="relative flex h-28 w-28 items-center justify-center rounded-full border border-white/15 bg-white/5 p-4 shadow-[0_15px_40px_rgba(0,0,0,0.45)] backdrop-blur-xl">
                 <img
                   src="/images/logo-circle.png"
-                  alt="Herbivaeg"
+                  alt="Herbiva"
                   className="h-full w-full object-contain filter drop-shadow-[0_4px_12px_rgba(165,194,50,0.35)]"
                 />
               </div>
@@ -126,7 +126,7 @@ export default function GlobalPreloader() {
               className="mb-8"
             >
               <h1 className="font-display text-[26px] font-bold tracking-[0.28em] text-white md:text-[30px]">
-                HERBIVAEG
+                HERBIVA
               </h1>
               <p className="mt-1 text-[13px] font-medium tracking-[0.2em] text-[#A5C232] uppercase">
                 {isEn ? 'Nature, Sourced with Trust' : 'الطبيعة… بمصدر موثوق'}
